@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center_horizontal"
+    android:background="@color/black"
+    tools:context=".MainActivity">
+
+
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/title"
+        android:layout_marginTop="80dp"
+        android:layout_gravity="center"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:textColor="@color/black"
+        android:background="@color/white"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        />
+
+    <Spinner
+        android:id="@+id/my_spinner"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:background="@color/white"
+        />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="11"
+        android:background="@drawable/border_rectangle_shape"
+        android:hint="@string/edtNo1"
+        android:id="@+id/edtAge"
+        android:inputType="number"
+        android:layout_marginTop="60dp"
+        android:textColorHint="#F4A8A3"
+        android:textStyle=""
+        android:textColor="@color/white"
+        android:textSize="24sp"
+        android:paddingVertical="5dp"
+        android:paddingLeft="10dp"
+        />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="11"
+        android:background="@drawable/border_rectangle_shape"
+        android:hint="@string/edtNo2"
+        android:id="@+id/edtWeight"
+        android:inputType="number"
+        android:layout_marginTop="40dp"
+        android:textColorHint="#F4A8A3"
+        android:textStyle=""
+        android:textColor="@color/white"
+        android:textSize="24sp"
+        android:paddingVertical="5dp"
+        android:paddingLeft="10dp"
+        />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/edtHeight"
+        android:ems="11"
+        android:background="@drawable/border_rectangle_shape"
+        android:hint="@string/edtNo3"
+        android:layout_marginTop="40dp"
+        android:textColorHint="#F4A8A3"
+        android:textStyle=""
+        android:textColor="@color/white"
+        android:inputType="number"
+        android:textSize="24sp"
+        android:paddingVertical="5dp"
+        android:paddingLeft="10dp"
+        />
+
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="60sp"
+        android:backgroundTint="@color/white"
+        android:fontFamily="sans-serif-medium"
+        android:text="Check"
+        android:textSize="35sp"
+        android:textColor="@color/black"
+        app:cornerRadius="20dp"
+        android:id="@+id/btnCheck"
+        />
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=""
+        android:textColor="#FF7700"
+        android:id="@+id/results"
+        android:layout_marginTop="40dp"
+        android:textStyle="bold"
+        android:textSize="20sp"
+        android:layout_gravity="center"
+
+        />
+
+</LinearLayout>

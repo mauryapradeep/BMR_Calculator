@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">BMR-Kt-App</string>
+    <string name="title">Base Metabolic Rate Calculator</string>
+    <string name="edtNo1">Enter The Age</string>
+    <string name="edtNo2">Enter The Weight(in kg)</string>
+    <string name="edtNo3">Enter The Height(in cm)</string>
+    <string-array name="options">
+        <item>Man</item>
+        <item>Women</item>
+    </string-array>
+
+</resources>
