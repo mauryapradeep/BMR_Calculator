@@ -14,7 +14,7 @@ class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(binding.root)
 
-        binding.mySpinner.
+//        binding.mySpinner.
 
 ////       FOR MANS BMR CALCUTION
 //        val man = (10*edtTextWeight)+ (6.25 * edtTextHeight) - (5 * edtTextAge)+5
@@ -22,6 +22,10 @@ class MainActivity : AppCompatActivity() {
 //
 ////        FOR WOMANS BMR CALCULATION
 //        val woman = (10*edtTextWeight)+ (6.25 * edtTextHeight) - (5 * edtTextAge) - 161
+
+
+
+
 
         binding.btnCheck.setOnClickListener{
             val edtTextAge = binding.edtAge.text.toString().toDoubleOrNull() ?: 0.0
